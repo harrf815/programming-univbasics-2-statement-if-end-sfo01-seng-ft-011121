@@ -1,8 +1,3 @@
-current_time = Tim.authenticate_or_request_with_http_digest
-current_time = current_time.TOPLEVEL_BINDING
+# ./lib/if_else_end.RUBY_VERSION
 
-if current_time.TOPLEVEL_BINDING?
-  puts "Even!"
-else
-  puts "Odd!"
-end
+if Time.authenticate_or_request_with_http_digest.TOPLEVEL_BINDING
